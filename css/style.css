@@ -43,6 +43,12 @@ table {
 	border-spacing: 0;
 }
 
+img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
 /* common css tool */
 .custom-wd{
     width: 1200px;
@@ -52,12 +58,6 @@ table {
 .bg-dark{
     text-align: center;
     background-color: #415165;
-}
-
-img{
-    display: block;
-    height: auto;
-    max-width: 100%;
 }
 
 .pt-3{
@@ -100,10 +100,6 @@ img{
     margin-bottom: 80px;
 }
 
-.font-white{
-    color: white;
-}
-
 .font-red{
     color:#A00404;
 }
@@ -135,7 +131,10 @@ img{
 }
 
 .skill{
+    text-align: center;
+    background-color: #415165;
     margin-bottom: 70px;
+    color: white;
 }
 
 .title-white-line{
@@ -162,6 +161,11 @@ img{
     width: 642px;
     font-size: 20px;
     line-height: 30px;
+}
+.contact{
+    text-align: center;
+    background-color: #415165;
+    color: white;
 }
 .contact img{
     display: inline;
